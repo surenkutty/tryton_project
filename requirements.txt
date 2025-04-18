@@ -1,0 +1,6 @@
+trytond
+trytond-party
+trytond-product
+trytond-account
+
+psycopg2-binary

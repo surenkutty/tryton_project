@@ -1,0 +1,7 @@
+<report
+    string="Customer Invoice"
+    model="customer.order"
+    name="customer.order.invoice_report"
+    report="customer_order/report/invoice.odt"
+    attachment="%(model)s-%(id)s.odt"
+/>

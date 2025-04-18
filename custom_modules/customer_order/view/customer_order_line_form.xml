@@ -1,0 +1,6 @@
+<tree string="Order Lines">
+    <field name="product"/>
+    <field name="quantity"/>
+    <field name="unit_price"/>
+    <field name="subtotal"/>
+</tree>

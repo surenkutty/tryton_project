@@ -1,0 +1,12 @@
+<form string="Customer Order">
+    <field name="customer"/>
+    <field name="order_date"/>
+    <field name="state"/>
+    <label name="total_amount"/>
+    <field name="total_amount" readonly="1"/>
+    <field name="lines"/>
+    <toolbar>
+        <button name="confirm" string="Confirm" states="draft" type="object" icon="tryton-ok"/>
+        <button name="process" string="Mark Done" states="confirmed" type="object" icon="tryton-ok"/>
+    </toolbar>
+</form>
